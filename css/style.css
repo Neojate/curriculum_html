@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paper {
+    display: grid;
+    grid-template-columns: 220px auto;
+    width: 794px;
+    height: 1123px;
+    border: 1px solid black;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+/* ***************************************************************************** */
+/* PANEL IZQUIERDA */
+/* ***************************************************************************** */
+.left {
+    background-color: #f7e3ab;
+    position: relative;
+}
+
+.subname {
+    background-color: #abe5f7;
+    height: 90px;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    z-index: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.card * i {
+    margin-right: 5px;
+}
+
+.email {
+    font-size: 12px;
+}
+
+.info {
+    background-color: #f8f0da ;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.info-title {
+    background-color: #f7e3ab;
+    border-radius: 10px;
+    width: 140px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -70px;
+    padding-bottom: 7px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+}
+
+.info-body {
+    padding: 10px 0;
+}
+
+.info-body p {
+    margin: 10px 0;
+}
+
+.points {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: -10px;
+    text-align: center;
+}
+
+.points * img {
+    height: 10px;
+    width: auto;
+}
+
+.left-footer {
+    display: grid;
+    font-size: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    text-align: center;
+}
+
+a:visited {
+    color: black;
+}
+
+.language {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+}
+
+
+
+/* ***************************************************************************** */
+/* PANEL DERECHA */
+/* ***************************************************************************** */
+.name {
+    background-color: #abe5f7;
+    height: 90px;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.name-title {
+    font-size: 40px;
+}
+
+.name-subtitle {
+    font-size: 20px;
+}
+
+.studies {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    margin-top: 15px;
+}
