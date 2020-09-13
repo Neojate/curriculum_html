@@ -17,19 +17,27 @@ html,body {
 }
 
 .mt-30 {
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.bc-yellow {
+    background-color: #f7e3ab;
 }
 
 /* ***************************************************************************** */
 /* PANEL IZQUIERDA */
 /* ***************************************************************************** */
 .left {
-    background-color: #f7e3ab;
+    background-color: #f9f2e2;
     position: relative;
 }
 
 .subname {
-    background-color: #abe5f7;
+    background-color: #e2e9f9;
     height: 90px;
     position: absolute;
     top: 40px;
@@ -56,22 +64,23 @@ html,body {
 }
 
 .info {
-    background-color: #f8f0da ;
+    /*background-color: #f8f0da;*/
     border-radius: 5px;
-    margin: 10px;
-    margin-top: 50px;
+    margin: 20px;
+    margin-top: 20px;
     padding: 10px;
     position: relative;
 }
 
 .info-title {
-    background-color: #f7e3ab;
-    border-radius: 10px;
+    /* background-color: #f7e3ab; */
+    /* background-color: #f9f2e2; */
+    border-radius: 5px;
     width: 140px;
     font-weight: bold;
     left: 50%;
     margin-left: -70px;
-    padding-bottom: 7px;
+    padding: 5px 0;
     position: absolute;
     text-align: center;
     top: -10px;
@@ -79,6 +88,7 @@ html,body {
 
 .info-body {
     padding: 10px 0;
+    font-size: 12px;
 }
 
 .info-body p {
@@ -105,9 +115,10 @@ html,body {
     text-align: center;
 }
 
-a:visited {
-    color: black;
-}
+
+a { color: #444; }
+a:visited { color: #444; }
+a:active { color: #444; }
 
 .language {
     display: grid;
@@ -121,7 +132,7 @@ a:visited {
 /* PANEL DERECHA */
 /* ***************************************************************************** */
 .name {
-    background-color: #abe5f7;
+    background-color: #e2e9f9;
     height: 90px;
     margin-top: 40px;
     padding: 10px;
@@ -141,4 +152,33 @@ a:visited {
     grid-template-columns: 1fr 2fr;
     text-align: left;
     margin-top: 15px;
+}
+
+.me {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.busisness {
+    margin-bottom: 10px;
+}
+
+.project {
+    font-style: italic;
+}
+
+.busisness span {
+    display: block;
+}
+
+.where {
+    font-weight: bold;
 }
