@@ -17,7 +17,7 @@ html,body {
 }
 
 .mt-30 {
-    margin-top: 20px;
+    margin-top: 30px !important;
 }
 
 .mt-50 {
@@ -111,7 +111,7 @@ html,body {
     display: grid;
     font-size: 30px;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 40px;
+    margin-top: 130px;
     text-align: center;
 }
 
@@ -147,13 +147,6 @@ a:active { color: #444; }
     font-size: 20px;
 }
 
-.studies {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    text-align: left;
-    margin-top: 15px;
-}
-
 .me {
     padding-left: 10px;
     padding-right: 10px;
@@ -172,7 +165,9 @@ a:active { color: #444; }
 }
 
 .project {
-    font-style: italic;
+    /* font-style: italic; */
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 .busisness span {
@@ -181,4 +176,12 @@ a:active { color: #444; }
 
 .where {
     font-weight: bold;
+}
+
+.subexp {
+    color: #444;
+    font-style: italic;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: justify;
 }
